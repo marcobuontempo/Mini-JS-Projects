@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colour Picker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <span id="title-colour">
+                 Colour Flipper
+        </span>
+        <ul>
+            <li id="simpleGenNav" class="simple-flipper-button">Simple</li>
+            <li id="hexGenNav" class="hex-flipper-button">Hex</li>
+            <li id="rgbGenNav" class="rgb-flipper-button">RGB</li>
+            <li id="randGenNav" class="random-flipper-button">RANDOM</li>
+        </ul>
+        <div id="mode">
+            Current Mode: <span id="current-mode">random</span>
+        </div>
+    </nav>
+    <section id="colourBackground">
+        <div class="colour-info">
+            <span class="colour-heading">Colour Type: <span id="colour-type">Default</span></span>
+            <span class="colour-heading">Colour Code: <span id="colour-code">"White"</span></span>
+        </div>
+        <div>
+            <button id="random-flipper-button" class="colour-flipper-button">Click Me!</button>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
